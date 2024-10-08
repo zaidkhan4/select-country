@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(171, 221, 221);
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+}
+#main{
+    width: 600px;
+    height: 600px;
+    background-color: white;   
+    
+}
+#header{
+    width: 600px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(47, 14, 136);
+    color: white;
+}
+#content{
+    padding: 40px;
+}
+#country{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+#state{
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+label{
+    color: red;
+    font-size: 20px;
+}
+
